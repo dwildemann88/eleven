@@ -126,6 +126,21 @@ main{
         transition: background-color 0.3s ease;
         margin-bottom: 50px;
     }
+    .btn-ver-mais {
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 30px;
+        background-color: orange;
+        color: white;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        margin-top: auto; /* Adiciona espaço automático acima do botão */
+    }
+    
+    .btn-ver-mais:hover {
+        background-color: #ff8c00; /* Tom mais escuro de laranja ao passar o mouse */
+    }
+    
 
     .btn-ver-mais:hover {
         background-color: #ff8c00; /* Tom mais escuro de laranja ao passar o mouse */
