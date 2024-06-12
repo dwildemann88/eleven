@@ -237,3 +237,136 @@ a{
 .gg-instagram{
     color: white;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .logo-img {
+        width: 50px; /* Reduz o tamanho do ícone */
+    }
+
+    .logoTitle {
+        display: none; /* Esconde o texto "Eleven" */
+    }
+
+    #logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    #navegation {
+        margin-top: 10px; /* Espaçamento acima da navegação */
+    }
+
+    #listaNav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px; /* Espaçamento entre os itens de navegação */
+        list-style: none;
+        padding: 0;
+    }
+
+    .objectList {
+        text-align: center; /* Centraliza o texto dos itens de navegação */
+    }
+
+    .item-nav {
+        text-decoration: none;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #apresentation {
+        padding: 20px; /* Espaçamento interno da seção de apresentação */
+        text-align: center; /* Centraliza o conteúdo */
+    }
+
+    .figure-apresentation {
+        display: none; /* Esconde a imagem em dispositivos móveis */
+    }
+
+    .text-apresentation {
+        width: 100%;
+    }
+
+    .E3-apresention {
+        font-size: 28px; /* Reduz o tamanho do título principal */
+        line-height: 1.2; /* Espaçamento entre linhas */
+    }
+
+    .about-apresentation {
+        font-size: 14px; /* Reduz o tamanho do texto de apresentação */
+        text-align: justify; /* Justifica o texto */
+    }
+
+    .button-about-apresentation {
+        width: 100%;
+        max-width: 200px;
+        margin-top: 20px; /* Espaçamento acima do botão */
+    }
+
+    footer {
+        background-color: #333; /* Cor de fundo do rodapé */
+        color: white; /* Cor do texto */
+        padding: 20px; /* Espaçamento interno do rodapé */
+        text-align: center; /* Centraliza o conteúdo */
+    }
+
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px; /* Espaçamento entre as seções do rodapé */
+    }
+
+    .footer-section {
+        width: 100%;
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .footer-section h4 {
+        margin-bottom: 10px; /* Espaçamento abaixo do título */
+    }
+
+    .footer-section p,
+    .footer-section ul,
+    .footer-section a {
+        margin: 5px 0; /* Espaçamento vertical */
+    }
+
+    .footer-section ul {
+        padding: 0;
+    }
+
+    .footer-section ul li {
+        margin-bottom: 5px; /* Espaçamento abaixo de cada item da lista */
+    }
+
+    .social-icons {
+        margin-top: 10px; /* Espaçamento acima dos ícones sociais */
+    }
+
+    .social-icons a {
+        font-size: 24px; /* Ajusta o tamanho dos ícones sociais */
+        margin: 0 5px; /* Espaçamento horizontal entre os ícones */
+    }
+
+    .footer-bottom {
+        text-align: center; /* Centraliza o texto */
+        padding: 10px 0; /* Espaçamento interno */
+        background-color: #000; /* Cor de fundo do rodapé inferior */
+        color: white; /* Cor do texto */
+    }
+
