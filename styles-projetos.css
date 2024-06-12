@@ -1,0 +1,77 @@
+@import url(styles.css);
+
+
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 80%;
+    /* border: 1px solid red; */
+}
+
+.project {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px); /* Tamanho do projeto com margem */
+    max-width: 350px; /* Largura máxima do projeto */
+    margin-bottom: 20px;
+    
+   
+}
+
+.project h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.6;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .project {
+        width: calc(100% - 20px); /* Em telas menores, ocupar toda a largura disponível */
+    }
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    gap: 50px;
+}
+.project img {
+    max-width: 100%;
+    height: 200px;
+    width: 100%; /* Garante que a imagem ocupe todo o espaço disponível */
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+.text-project{
+    color: white;
+    font-size: 42px;
+}
+.btn-ver-mais{
+    border: 1px solid rgb(0, 0, 0);
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+.btn-ver-mais:hover{
+    background-color: orange;
+    border: none;
+    color: white;
+    transition: 0.5s;
+}
