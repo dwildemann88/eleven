@@ -62,3 +62,49 @@
         margin-bottom: 20px;
     }
 }
+@media screen and (max-width: 768px) {
+    .about-info {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        padding: 0 20px; /* Ajuste de padding para melhor responsividade */
+        height: auto;
+    }
+
+    .about-info img {
+        width: 100%; /* Garante que a imagem ocupe toda a largura disponível */
+        max-width: 100%;
+        height: auto;
+        border-radius: 20px 0px 20px 0px;
+        margin-bottom: 20px;
+    }
+
+    .about-text {
+        width: 100%;
+        padding: 20px 0; /* Ajuste de padding para melhor responsividade */
+        text-align: center;
+        gap: 20px;
+    }
+
+    .about-text h1 {
+        font-size: 36px;
+    }
+
+    .texto {
+        width: 100%;
+        font-size: 14px;
+    
+    }
+
+    .missao {
+        font-size: 18px;
+        width: 100%;
+
+    }
+
+    .aspas {
+        font-size: 32px;
+    }
+}
