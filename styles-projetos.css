@@ -93,6 +93,7 @@ main{
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         margin-bottom: 20px;
         text-align: center;
+        height: auto;
     }
 
     .project img {
@@ -115,33 +116,19 @@ main{
         margin-bottom: 20px;
     }
 
+    
     .btn-ver-mais {
         padding: 10px 20px;
         font-size: 16px;
         border-radius: 30px;
-        background-color: orange;
-        color: white;
-        text-decoration: none;
+        background-color: transparent;
+        color: rgb(255, 153, 0);
         border: white;
-        transition: background-color 0.3s ease;
-        margin-bottom: 50px;
-    }
-    .btn-ver-mais {
-        padding: 10px 20px;
-        font-size: 16px;
-        border-radius: 30px;
-        background-color: orange;
-        color: white;
         text-decoration: none;
         transition: background-color 0.3s ease;
         margin-top: auto; /* Adiciona espaço automático acima do botão */
+        transform: scale(0.5);
     }
-    
-    .btn-ver-mais:hover {
-        background-color: #ff8c00; /* Tom mais escuro de laranja ao passar o mouse */
-    }
-    
-
     .btn-ver-mais:hover {
         background-color: #ff8c00; /* Tom mais escuro de laranja ao passar o mouse */
     }
