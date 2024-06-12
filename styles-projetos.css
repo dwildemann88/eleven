@@ -75,3 +75,67 @@ main{
     color: white;
     transition: 0.5s;
 }
+@media (max-width: 768px) {
+    .projects-container {
+        display: flex;
+        flex-direction: column; /* Alinha os projetos em coluna */
+        align-items: center; /* Centraliza os projetos na página */
+    }
+    main{
+        height: auto;
+    }
+    .project {
+        width: 100%;
+        max-width: 300px; /* Largura máxima dos projetos */
+        padding: 15px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .project img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    .project h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #333333;
+    }
+
+    .project p {
+        font-size: 16px;
+        color: #666666;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .btn-ver-mais {
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 30px;
+        background-color: orange;
+        color: white;
+        text-decoration: none;
+        border: white;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-ver-mais:hover {
+        background-color: #ff8c00; /* Tom mais escuro de laranja ao passar o mouse */
+    }
+    .alguns{
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    .text-project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

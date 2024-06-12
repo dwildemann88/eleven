@@ -40,7 +40,7 @@ function exibirProjetos() {
                 <img src="${projeto.imagem}" alt="${projeto.titulo}">
                 <h2>${projeto.titulo}</h2>
                 <p>${projeto.descricao}</p>
-                <a href="${projeto.link}" class="btn-ver-mais">Visualizar Projeto</a>
+                <a href="${projeto.link}" class="btn-ver-mais">Visualizar</a>
             </div>
         `;
         container.innerHTML += projectHTML;
