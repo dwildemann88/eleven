@@ -124,6 +124,7 @@ main{
         text-decoration: none;
         border: white;
         transition: background-color 0.3s ease;
+        margin-bottom: 50px;
     }
 
     .btn-ver-mais:hover {

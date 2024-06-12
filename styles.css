@@ -299,12 +299,16 @@ a{
 
     .text-apresentation {
         width: 100%;
+        /* border: 1px solid red; */
     }
 
     .E3-apresention {
-        font-size: 28px; /* Reduz o tamanho do título principal */
+
+        font-size: 32px; /* Reduz o tamanho do título principal */
         line-height: 1.2; /* Espaçamento entre linhas */
+     
     }
+    
 
     .about-apresentation {
         font-size: 14px; /* Reduz o tamanho do texto de apresentação */
